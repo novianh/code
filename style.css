@@ -1,0 +1,363 @@
+body {
+	box-sizing: content-box;
+	margin: 0;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.btn:focus,
+a:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.josefin-slab {
+	font-family: "Josefin Slab", serif;
+}
+
+.hero {
+	height: 100vh;
+	width: 100%;
+	margin: auto 0;
+	background-image: url(https://images.pexels.com/photos/2253842/pexels-photo-2253842.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.bg-blue {
+	background-color: rgba(48, 69, 90, 0.5);
+	color: #fff1e0;
+}
+
+.tangerine {
+	font-family: "Tangerine", cursive;
+}
+
+.bg-blue h2 {
+	font-weight: 300;
+}
+
+#ornamen-1 {
+	width: 263px;
+}
+
+@media (min-width: 768px) {
+	#ornamen-1 {
+		width: 340px;
+	}
+}
+
+section {
+	width: 100%;
+	height: fit-content;
+}
+
+main {
+	background-color: #faf8f7;
+}
+
+.bride h5 {
+	font-weight: 300;
+}
+
+.bride h2 {
+	font-weight: 700;
+	color: #91715b;
+}
+
+.bride p {
+	font-weight: 300;
+}
+
+@media (min-width: 992px) {
+	#orm-and {
+		width: 150px;
+	}
+}
+
+.timer {
+	height: 30vh;
+	width: 100%;
+	margin: auto 0;
+	background-image: url("images/img-timer.jpg");
+	background-position: center 80%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #faf8f7;
+	background-attachment: fixed;
+}
+
+.timer-text {
+	font-size: 0.5rem;
+}
+
+.love-story {
+	background-image: url("images/orm-flower-love-story.svg");
+	background-repeat: no-repeat;
+	background-position: 20% bottom;
+}
+
+.love-story h1 {
+	font-weight: 700;
+	color: #91715b;
+	font-size: 2rem;
+}
+
+.love-story h5 {
+	font-style: italic;
+	margin-top: -0.5rem;
+	font-size: 1rem;
+}
+
+.love-story img {
+	margin: -0.5rem 0 0 0%;
+}
+
+.card-body {
+	background-color: #decbc1;
+}
+
+.love-story .indicator {
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 100%;
+	background-color: #30455a;
+}
+
+@media (min-width: 768px) {
+	.love-story h1 {
+		font-size: 53px;
+	}
+	.love-story h5 {
+		font-size: 22px;
+	}
+	.card-body {
+		background-color: #decbc100;
+	}
+}
+
+.resepsi {
+	background-color: #30455a;
+	color: #decbc1;
+	height: 46rem;
+}
+
+.btn-sm {
+	color: #decbc1;
+	background-color: #30455a;
+	border: 2px solid #decbc1;
+	border-radius: 3rem;
+	transition: 0.3s;
+}
+
+.btn-sm:hover {
+	color: #30455a;
+	background-color: #decbc1;
+}
+
+.resepsi .right .row {
+	width: 100%;
+	z-index: -1;
+}
+
+.resepsi .right .row .col {
+	margin: 0;
+	padding-right: 0;
+	right: 0;
+	height: 1vh;
+}
+
+@media (max-width: 768px) {
+	.resepsi {
+		height: fit-content;
+	}
+	.resepsi .right {
+		display: none;
+	}
+	.resepsi .left {
+		display: none;
+	}
+}
+
+.rsvp {
+	background-color: #faf8f7;
+	background-image: url("images/orm-rsvp.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #30455a;
+}
+
+.rsvp p {
+	color: #91715b;
+}
+
+.rsvp .bg-form {
+	background-color: #decbc188;
+}
+.btn-brown {
+	background-color: #91715b;
+	color: #fff1e0;
+}
+.btn-brown:hover {
+	background-color: #664a38;
+	color: #fff1e0;
+	box-shadow: none;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="checkbox"],
+.uneditable-input:focus {
+	border-color: #91715b;
+	box-shadow: none;
+	border: 2px solid;
+	outline: 0 none;
+}
+textarea,
+input[type="text"],
+input[type="tel"],
+input[type="checkbox"],
+.uneditable-input {
+	box-shadow: none;
+	border: 2px solid transparent;
+	outline: 0 none;
+	background-color: #faf8f7;
+}
+
+.form-check-input:checked {
+	background-color: #91715b;
+	border-color: transparent;
+}
+
+.form-check-input:focus {
+	border-color: transparent;
+	outline: 0;
+	box-shadow: none;
+}
+
+.btn-drop {
+	background-color: #faf8f7;
+	text-align: start;
+	border: 2px solid transparent;
+}
+.btn-drop:focus {
+	background-color: #faf8f7;
+	box-shadow: none;
+	border: 2px solid #91715b;
+}
+
+.ucapan-doa {
+	background-color: #30455a;
+	color: #fff1e0;
+}
+
+.bg-scroll {
+	background-color: #fff1e010;
+}
+
+.wedding-gift {
+	background-image: url("images/Rectangle.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.line {
+	border: 3px solid #91715b;
+	margin: .5rem;
+}
+
+.momen {
+	background-color: #30455a;
+	color: #fff1e0;
+}
+
+.custom-select {
+	position: relative;
+	border: 2px solid #91715b;
+	border-radius: 4px;
+}
+
+.custom-select select {
+	display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+	background-color: #faf8f7;
+	border-radius: 4px;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+	position: absolute;
+	content: "";
+	top: 14px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border: 6px solid transparent;
+	border-color: #30455a transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+	border-color: transparent transparent #30455a transparent;
+	top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+	color: #30455a;
+	padding: 8px 16px;
+	border: 1px solid transparent;
+	border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+	cursor: pointer;
+	user-select: none;
+	border-radius: 4px;
+}
+
+/*style items (options):*/
+.select-items {
+	position: absolute;
+	background-color: #decbc1;
+	top: 100%;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+	display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+	background-color: #30455a17;
+}
+
+#orm-momen {
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.pagination > li > a,
+.pagination > li > span {
+	border: 1px solid #91715b;
+}
+.page-item.active .page-link  {
+	background: #91715b;
+	color: #fff1e0 !important;
+	box-shadow: none;
+	border-color: #91715b;
+}
+.page-item.disabled .page-link  {
+	color: #decbc1 !important;
+	box-shadow: none;
+	border-color: #decbc1;
+}
+
+.wedding-gift .card-body {
+	background-color: #decbc160;
+}
